@@ -42,38 +42,38 @@ En Flutter, un widget es el bloque básico de construcción de la interfaz de us
 Un widget común es `Text`, que simplemente muestra texto en la pantalla. Por ejemplo:
 
 ```dart
-    import 'package:flutter/material.dart';
-    
-    void main() {
-    runApp( const MyApp() );
-    }
+import 'package:flutter/material.dart';
+ 
+void main() {
+ runApp( const MyApp() );
+}
 
-    class MyApp extends StatelessWidget {
-    const MyApp({super.key});
-    @override
-    Widget build(BuildContext context) {
-        return MaterialApp(
-        home: Scaffold(
-            appBar: AppBar(title: Text('Hola Flutter')),
-            body: Center(
-            child: Text('¡Hola mundo!'),
-            ),
-        ),
-        );
-    }
-    }
+class MyApp extends StatelessWidget {
+const MyApp({super.key});
+@override
+Widget build(BuildContext context) {
+     return MaterialApp(
+     home: Scaffold(
+         appBar: AppBar(title: Text('Hola Flutter')),
+         body: Center(
+          child: Text('¡Hola mundo!'),
+         ),
+    ),
+   );
+  }
+}
 ```
 Se pueden combinar widgets para crear algo más complejo. En el ejemplo a continuación usamos un widget Column dentro del body, que organiza varios widgets (dos Text y un Icon) en una columna.
 
 ```dart
-    body: Column(
-    mainAxisAlignment: MainAxisAlignment.center,
-    children: const [
-        Text('Primer Texto'),
-        Text('Segundo Texto'),
-        Icon(Icons.star, color: Colors.yellow),
-    ],
-    )
+ body: Row(
+ mainAxisAlignment: MainAxisAlignment.center,
+ children: [
+     Text('Primer Texto'),
+     Text('Segundo Texto'),
+     Icon(Icons.star, color: Colors.yellow),
+  ],
+ )
 ```
 En el ejemplo anterior los textos y el ícono se organizan verticalmente gracias al widget Column. Icon es un widget que muestra un ícono (en este caso, una estrella).
 
@@ -357,3 +357,6 @@ class _EntradaSalidaPantallaState extends State<EntradaSalidaPantalla> {
 # Maquetación
 
 ## Columnas y filas
+
+Consultar en la carpeta correspondiente
+[]
