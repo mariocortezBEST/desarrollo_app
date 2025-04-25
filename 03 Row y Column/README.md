@@ -199,7 +199,7 @@ Container(
 #### 3.7. Combinación de Propiedades:
 El siguiente es un ejemplo de como quedaría al combinar varias de estas propiedades para lograr el efecto visual deseado.
 
-![Imagen de como quedaría]()
+![Container adaptado al texto](https://github.com/gerardorosales2222/desarrollo_app/blob/main/img/04%20container.png)
 
 ```dart
 class MiContenedor extends StatelessWidget {
@@ -225,7 +225,7 @@ class MiContenedor extends StatelessWidget {
 
 El siguiente es un ejemplo de una maquetación muy simple utilizando containers:
 
-![Imagen de como quedaría]()
+![Ejemplo de clase](https://github.com/gerardorosales2222/desarrollo_app/blob/main/img/05%20container.png)
 
 ```dart
 import 'package:flutter/material.dart';

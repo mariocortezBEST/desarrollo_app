@@ -358,5 +358,4 @@ class _EntradaSalidaPantallaState extends State<EntradaSalidaPantalla> {
 
 ## Columnas y filas
 
-Consultar en la carpeta correspondiente
-[]
+Consultar en la carpeta correspondiente en el siguiente [enlace](https://github.com/gerardorosales2222/desarrollo_app/tree/main/03%20Row%20y%20Column "Filas y Columnas").
