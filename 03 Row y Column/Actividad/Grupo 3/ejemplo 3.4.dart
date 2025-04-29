@@ -25,9 +25,7 @@ class Inicio extends StatelessWidget {
     color: Colors.lightGreen[100],
     padding: EdgeInsets.all(16.0),// padding de los cuatro lados de 16px
     child: Text('Con Márgenes'),//el texto que se va a mostrar
-)
-  )
+    )
+  );
   }
 }
-
-s
