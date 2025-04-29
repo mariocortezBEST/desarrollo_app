@@ -11,8 +11,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
 
-title: "ejemplo_1",
-home: Inicio()
+      title: "ejemplo 5",
+      home: Inicio()
 
     );
   }
