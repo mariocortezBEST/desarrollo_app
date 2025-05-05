@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-    title:"ejemplo 3.4",
+    title:"ejemplo 3.5",
     home: Inicio()
     );   
   }
@@ -19,13 +19,13 @@ class Inicio extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-    appBar: AppBar(title: Text("Ejemplo_3.4"),),
+    appBar: AppBar(title: Text("Ejemplo_3.5"),),
     body: Container(
-    margin: EdgeInsets.only(top: 20.0, left: 30.0), // Margen superior de 20px e izquierdo de 30px
-    color: Colors.lightGreen[100],
-    padding: EdgeInsets.all(16.0),// padding de los cuatro lados de 16px
-    child: Text('Con Márgenes'),//el texto que se va a mostrar
-    )
-  );
+    color: Colors.pink[100],
+    padding: EdgeInsets.symmetric(horizontal: 32.0, vertical: 8.0), // Relleno horizontal y vertical diferente
+    child: Text('Con Relleno'),
+)
+);
   }
 }
+

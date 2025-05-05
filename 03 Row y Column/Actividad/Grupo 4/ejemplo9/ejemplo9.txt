@@ -1,0 +1,32 @@
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'ejemplo9',
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('ejemplo9'),
+        ),
+        body: Center(
+          child: Container(
+            color: Colors.pink[100],
+            padding: EdgeInsets.symmetric(
+              horizontal: 32.0, // Relleno lateral
+              vertical: 8.0,    // Relleno arriba y abajo
+            ),
+            child: Text(
+              'Con Relleno',
+              style: TextStyle(fontSize: 16),
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
