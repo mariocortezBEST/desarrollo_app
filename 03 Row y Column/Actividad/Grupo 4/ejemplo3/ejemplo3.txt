@@ -1,0 +1,31 @@
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Ejemplo3',
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('ejemplo3'),
+        ),
+        body: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[
+              Text('Elemento 1'),
+              SizedBox(height: 10),
+              Text('Elemento 2'),
+              SizedBox(height: 10),
+              FlutterLogo(size: 50),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}

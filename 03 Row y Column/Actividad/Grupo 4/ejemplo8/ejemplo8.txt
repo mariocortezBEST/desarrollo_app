@@ -1,0 +1,28 @@
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'ejemplo8',
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('ejemplo8'),
+        ),
+        body: Container(
+          margin: EdgeInsets.only(top: 20.0, left: 30.0), // Márgenes exteriores
+          color: Colors.lightGreen[100],                  // Color de fondo
+          padding: EdgeInsets.all(16.0),                  // Espacio interno
+          child: Text(
+            'Con Márgenes',
+            style: TextStyle(fontSize: 16),
+          ),
+        ),
+      ),
+    );
+  }
+}

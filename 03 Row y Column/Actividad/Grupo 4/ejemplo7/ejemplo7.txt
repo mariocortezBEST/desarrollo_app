@@ -1,0 +1,29 @@
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'ejemplo7',
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('ejemplo7'),
+        ),
+        body: Center(
+          child: Container(
+            color: Colors.amber[200], // Color de fondo amarillo claro
+            padding: EdgeInsets.all(16.0), // Espaciado interno
+            child: Text(
+              'Fondo con Color',
+              style: TextStyle(fontSize: 16),
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
