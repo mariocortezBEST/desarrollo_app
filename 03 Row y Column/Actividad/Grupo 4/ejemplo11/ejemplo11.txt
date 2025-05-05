@@ -1,0 +1,42 @@
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'ejemplo11',
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('ejemplo11'),
+        ),
+        body: Center(
+          child: MiContenedor(),
+        ),
+      ),
+    );
+  }
+}
+
+class MiContenedor extends StatelessWidget {
+  const MiContenedor({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      margin: EdgeInsets.all(20.0), // Margen externo
+      padding: EdgeInsets.all(10.0), // Espaciado interno
+      decoration: BoxDecoration(
+        color: Colors.yellow, // Color de fondo
+        borderRadius: BorderRadius.circular(10.0), // Bordes redondeados
+      ),
+      child: Text(
+        'tama;o segun texto que lo contiene', // El texto dentro del contenedor
+        style: TextStyle(fontSize: 16),
+      ),
+    );
+  }
+}
